@@ -88,7 +88,6 @@ jobs:
       - name: Build APK
         working-directory: mobile
         run: |
-          buildozer android clean
           buildozer android debug
 
       - name: Upload APK artifact
